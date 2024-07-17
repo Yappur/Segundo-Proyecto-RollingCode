@@ -1,6 +1,45 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+.contenedor-principal-local {
+  width: 100%;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-local {
+  width: 85%;
+  height: 415px;
+}
+/* Estilo para ajustar las imágenes del carrusel */
+.contenedor-items-local {
+  width: 100%;
+  height: 415px;
+}
+.carousel-item-local img {
+  width: 100%; /* Imágenes abarcan todo el ancho */
+  height: 100%; /* Imágenes abarcan toda la altura del contenedor del carrusel */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la proporción */
+}
+.contenedor-categorias-body {
+  width: 100%;
+  margin-top: 10px;
+  max-width: 2000px;
+  padding: 10px;
+  height: 200px;
+  background-color: rgb(197, 197, 197);
+}
+.columna-categoria-local {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+}
+.columna-categoria-local button {
+  width: 90%;
+  height: 80px;
 }
 
 footer {
@@ -57,4 +96,15 @@ footer {
 .logo img {
   max-width: 100%;
   height: auto;
+}
+
+.linea-separadora {
+  background-color: #ced4da;
+  padding: 2px;
+}
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  margin: 10px 0;
 }
