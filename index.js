@@ -83,6 +83,8 @@ const productos = [
   },
 ];
 
+localStorage.setItem("productos", JSON.stringify(productos));
+
 divCards.innerHTML = productos
   .map(
     (producto) => `
@@ -100,7 +102,7 @@ divCards.innerHTML = productos
                       </p><p class="card-text">
                         ${producto.descripcion}
                       </p>
-                      <a href="./pages/detallesProductos.html" class="btn btn-primary">Ver Mas</a>
+                      <a href="./pages/detallesProductos.html?id=${producto.id}" class="btn btn-primary">Ver Mas</a>
                     </div>
                   </div>
                 </div>`
