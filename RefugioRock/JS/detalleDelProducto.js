@@ -14,7 +14,7 @@ const productoFiltrado = productosLocalStorage.find(
 divDetalleProducto.innerHTML = `
   <div d-flex>
     <div class='w-25 justify-content-end'>
-      <img src="${productoFiltrado.imagen}" alt="" class='w-100'/>
+      <img src=".${productoFiltrado.imagen}" alt="" class='w-100'/>
     </div>
     <p>$${productoFiltrado.precio}</p>
     <p>${productoFiltrado.descripcion}</p>
