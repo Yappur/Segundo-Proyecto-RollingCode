@@ -35,19 +35,19 @@
     <!-- navbar -->
     <div>
       <header>
-        <nav class="navbar bg-black">
-          <div class="container-fluid">
+        <nav class="navbar bg-black d-block">
+          <div class="container-fluid bg-black d-block">
             <span
               class="navbar-brand position-absolute top-50 start-50 translate-middle h5 text-light"
-              >🔥 3 CUOTAS S/ INTERES 🔥 6, 9, 12 CUOTAS FIJAS 🔥 - 📞 11 381
+              >🔥 3 CUOTAS S/ INTERES 🔥 6, 9, 12 CUOTAS FIJAS 🔥 - 📞 +54 381
               447 8791</span
             >
           </div>
         </nav>
 
-        <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <nav class="navbar navbar-expand-lg bg-dark-subtle d-block">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
+            <a class="navbar-brand" href="../index.html"
               ><img
                 width="215px"
                 src="../imagenes/RefugioRocklogo2.png"
@@ -65,7 +65,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a
                     class="nav-link active"
@@ -74,13 +74,12 @@
                     >Inicio</a
                   >
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/sobre-nosotros.html"
-                    >Sobre Nosotros</a
-                  >
+                  <a class="nav-link" href="#">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  <a class="nav-link" href="#">Contacto</a>
                 </li>
               </ul>
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -107,7 +106,7 @@
 
         <nav class="navbar navbar-expand-lg bg-dark-subtle">
           <div class="container-fluid">
-            <button
+            <!-- <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -117,9 +116,12 @@
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
             <div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div
+                class="collapse d-block navbar-collapse"
+                id="navbarSupportedContent"
+              >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                     <a
@@ -145,7 +147,6 @@
                     </ul>
                   </li>
                 </ul>
-
                 <form class="d-flex me-auto mb-2 mb-lg-0" role="search">
                   <input
                     class="form-control me-2"
@@ -217,6 +218,63 @@
         </form>
       </div>
     </main>
+
+    <div>
+      <footer class="d-flex mt-4">
+        <div class="footer-container">
+          <div class="footer-section logo">
+            <img
+              src="../imagenes/RefugioRocklogo2.png"
+              alt="Tu Logo"
+              width="5000-vh"
+            />
+          </div>
+          <div class="footer-section social">
+            <h4>SIGUENOS</h4>
+            <ul>
+              <li>
+                <a href="https://facebook.com"
+                  >Facebook<i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com"
+                  >Twitter<i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com"
+                  >Instagram<i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com"
+                  >Linkedin<i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section categories">
+            <h4>TIENDA</h4>
+            <ul>
+              <li><a href="#">Instrumentos</a></li>
+              <li><a href="#">Amplificadores</a></li>
+              <li><a href="#">Accesorios</a></li>
+              <li><a href="#">Microfonos</a></li>
+            </ul>
+          </div>
+          <div class="footer-section help">
+            <h4>AYUDA</h4>
+            <ul>
+              <li><a href="#">Centro de ayuda</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
 
     <script src="../JS/iniciar-sesion.js"></script>
     <script
