@@ -31,7 +31,7 @@ const productos = [
     precio: 600,
     descripcion:
       "Batería electrónica compacta con pads de malla y sonidos realistas.",
-    imagen: "https://example.com/images/roland-td-1kv.jpg",
+    imagen: "./imagenes/bateria.png",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const productos = [
     precio: 200,
     descripcion:
       "Teclado portátil con 61 teclas sensibles al tacto y una gran variedad de sonidos.",
-    imagen: "https://example.com/images/yamaha-psr-e373.jpg",
+    imagen: "./imagenes/teclado.png",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const productos = [
     precio: 1400,
     descripcion:
       "Guitarra acústica con cuerpo de madera de koa y una gran proyección de sonido.",
-    imagen: "https://example.com/images/taylor-214ce.jpg",
+    imagen: "./imagenes/acustica.png",
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const productos = [
     precio: 800,
     descripcion:
       "Bajo eléctrico de 4 cuerdas con un tono profundo y potente, ideal para rock y jazz.",
-    imagen: "https://example.com/images/fender-precision-bass.jpg",
+    imagen: "./imagenes/bajo.png",
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ const productos = [
     precio: 50,
     descripcion:
       "Pedal de distorsión clásico, utilizado por guitarristas de todos los géneros.",
-    imagen: "https://example.com/images/boss-ds-1.jpg",
+    imagen: "./imagenes/pedal.png",
   },
   {
     id: 9,
@@ -71,15 +71,7 @@ const productos = [
     precio: 1000,
     descripcion:
       "Saxofón alto con una excelente entonación y un sonido cálido, perfecto para estudiantes avanzados.",
-    imagen: "https://example.com/images/yamaha-yas-280.jpg",
-  },
-  {
-    id: 10,
-    nombre: "Guitarra Clásica Alhambra 4P",
-    precio: 500,
-    descripcion:
-      "Guitarra clásica hecha a mano con madera de cedro y palosanto, ideal para música clásica y flamenco.",
-    imagen: "https://example.com/images/alhambra-4p.jpg",
+    imagen: "./imagenes/saxo.png",
   },
 ];
 
