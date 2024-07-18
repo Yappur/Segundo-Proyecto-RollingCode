@@ -31,7 +31,7 @@ divCards.innerHTML = productosLocalStorage
                       </p><p class="card-text">
                         ${producto.descripcion}
                       </p>
-                      <a href="../pages/detallesProductos.html?id=${producto.id}" class="btn btn-primary">Ver Mas</a>
+                      <a href="../pages/detalleProductosUsuario.html?id=${producto.id}" class="btn btn-primary">Ver Mas</a>
                     </div>
                   </div>
                 </div>

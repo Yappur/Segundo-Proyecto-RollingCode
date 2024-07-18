@@ -1,5 +1,6 @@
 const params = new URLSearchParams(location.search);
 const idProducto = Number(params.get("id"));
+const idUsuario = Number(params.get("id"));
 const productos = JSON.parse(localStorage.getItem("productos")) || [];
 
 const divDetalleProducto = document.getElementById("idDetalleProducto");
@@ -30,9 +31,11 @@ const botonCarrito = document.querySelector("#idBotonCarrito");
 const agregarProductoAFavoritos = () => {
   const producto = productos.find((prod) => prod.id === idProducto);
   const usuarioSesionStorage =
-    JSON.parse(sessionStorage.getItem("usuario")) || "";
+    JSON.parse(sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")) ||
+    "";
   const usuariosLocalStorage =
     JSON.parse(localStorage.getItem("usuarios")) || [];
+  console.log(usuariosLocalStorage);
 
   if (!usuarioSesionStorage) {
     alert("Debes iniciar sesión.");
@@ -41,9 +44,12 @@ const agregarProductoAFavoritos = () => {
     }, 1000);
     return;
   }
+  const usuariosFiltrado = usuariosLocalStorage.map((usuario) => {
+    console.log("usuariofiltrado", usuario.id);
+  });
 
-  if (usuarioSesionStorage.favoritos.length) {
-    const productoFiltrado = usuarioSesionStorage.favoritos.find(
+  if (usuariosLocalStorage.favoritos.length) {
+    const productoFiltrado = usuariosLocalStorage.favoritos.find(
       (prod) => prod.id === producto.id
     );
     if (productoFiltrado) {

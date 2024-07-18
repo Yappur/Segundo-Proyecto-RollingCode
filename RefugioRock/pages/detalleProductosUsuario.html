@@ -32,13 +32,13 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="">
+     <div class="">
       <header>
         <nav class="navbar bg-black d-block">
-          <div class="container-fluid">
+          <div class="container-fluid bg-black d-block">
             <span
               class="navbar-brand position-absolute top-50 start-50 translate-middle h5 text-light"
-              >🔥 3 CUOTAS S/ INTERES 🔥 6, 9, 12 CUOTAS FIJAS 🔥 - 📞 11 381
+              >🔥 3 CUOTAS S/ INTERES 🔥 6, 9, 12 CUOTAS FIJAS 🔥 - 📞 +54 381
               447 8791</span
             >
           </div>
@@ -46,7 +46,7 @@
 
         <nav class="navbar navbar-expand-lg bg-dark-subtle d-block">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
+            <a class="navbar-brand" href="../pages/home-usuario.html"
               ><img width="215px" src="../imagenes/RefugioRocklogo2.png" alt=""
             /></a>
             <button
@@ -61,37 +61,102 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="../pages/home-usuario.html"
                     >Inicio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre Nosotros</a>
+                  <a class="nav-link" href="#">Carrito</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#">Favoritos</a>
                 </li>
               </ul>
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
+                  <button type="button" class="btn btn-outline-danger">
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="../pages/registro.html"
-                    >Registrarse</a
-                  >
+                    href="../index.html"
+                    id="idCerrarSesionUsuario"
+                    
+                    >Cerrar sesion</a
+                  ></button>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/iniciar-sesion.html"
-                    >Iniciar Sesion</a
-                  >
-                </li>
+               
+                
               </ul>
             </div>
           </div>
         </nav>
+        <div class="linea-separadora">
+          <div class="separator"></div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-dark-subtle">
+          <div class="container-fluid">
+            <!-- <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div>
+              <div
+                class="collapse d-block navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle h1"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      CATEGORIAS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex me-auto mb-2 mb-lg-0" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    
         <div class="linea-separadora">
           <div class="separator"></div>
         </div>
