@@ -7,7 +7,7 @@ const productos = [
     precio: 1200,
     descripcion:
       "Una de las guitarras eléctricas más icónicas, conocida por su versatilidad y sonido claro.",
-    imagen: "../imagenes/1.png",
+    imagen: "./imagenes/1.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const productos = [
     precio: 750,
     descripcion:
       "Amplificador de guitarra con 40 watts de potencia, ideal para conciertos y ensayos.",
-    imagen: "../imagenes/2.png",
+    imagen: "./imagenes/2.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const productos = [
     precio: 100,
     descripcion:
       "Micrófono dinámico vocal con patrón cardioide, perfecto para presentaciones en vivo.",
-    imagen: "../imagenes/Diseño sin título.png",
+    imagen: "./imagenes/Diseño sin título.png",
   },
   {
     id: 4,

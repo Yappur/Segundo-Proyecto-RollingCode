@@ -20,7 +20,7 @@ divCards.innerHTML = productosLocalStorage
   <div class="col-12 col-md-6 col-lg-4">
                   <div class="card colorCard">
                     <img
-                      src="${producto.imagen}"
+                      src=".${producto.imagen}"
                       class="card-img-top"
                       alt="..."
                     />

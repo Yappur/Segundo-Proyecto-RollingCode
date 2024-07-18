@@ -12,5 +12,6 @@ tBody.innerHTML = usuariosLocalStorage.map(
 <button type="button" class="btn btn-warning">Deshabilitar</button>
 <button type="button" class="btn btn-danger">Eliminar</button></td>
       </tr>
+      
   `
 );
