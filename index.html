@@ -32,10 +32,10 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div>
+    <div class="">
       <header>
-        <nav class="navbar bg-black">
-          <div class="container-fluid">
+        <nav class="navbar bg-black d-block">
+          <div class="container-fluid bg-black d-block">
             <span
               class="navbar-brand position-absolute top-50 start-50 translate-middle h5 text-light"
               >🔥 3 CUOTAS S/ INTERES 🔥 6, 9, 12 CUOTAS FIJAS 🔥 - 📞 11 381
@@ -44,7 +44,7 @@
           </div>
         </nav>
 
-        <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <nav class="navbar navbar-expand-lg bg-dark-subtle d-block">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
               ><img width="215px" src="./imagenes/RefugioRocklogo2.png" alt=""
@@ -61,7 +61,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Inicio</a
@@ -98,7 +98,7 @@
 
         <nav class="navbar navbar-expand-lg bg-dark-subtle">
           <div class="container-fluid">
-            <button
+            <!-- <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -108,9 +108,12 @@
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
             <div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div
+                class="collapse d-block navbar-collapse"
+                id="navbarSupportedContent"
+              >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                     <a
@@ -156,7 +159,7 @@
     <div>
       <main>
         <!-- Carousel -->
-        <div class="contenedor-principal-local">
+        <div class="contenedor-principal-local my-3">
           <div
             id="carouselExampleIndicators"
             class="carousel slide carousel-local"
@@ -231,132 +234,83 @@
         </div>
         <h1 class="text-center my-3 classCards">Productos</h1>
 
+        <!-- Cards -->
         <div class="container">
-          <div class="row classCards" id="idDivCards">
-            <!-- Cards -->
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+          <div class="row" id="idDivCards"></div>
+        </div>
+        <!-- categorias -->
+        <div class="container contenedor-categorias-body">
+          <div><h2>Categorías mas buscadas...</h2></div>
+          <div class="row">
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Ofertas</button>
             </div>
-
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Cocina</button>
             </div>
-
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Comunicación</button>
             </div>
-
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Entretenimiento</button>
             </div>
-            <!-- categorias -->
-            <div class="container contenedor-categorias-body">
-              <div><h2>Categorías mas buscadas...</h2></div>
-              <div class="row">
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Ofertas</button>
-                </div>
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Cocina</button>
-                </div>
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Comunicación</button>
-                </div>
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Entretenimiento</button>
-                </div>
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Televisores</button>
-                </div>
-                <div class="col columna-categoria-local">
-                  <button class="btn btn-primary">Otros</button>
-                </div>
-              </div>
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Televisores</button>
+            </div>
+            <div class="col columna-categoria-local">
+              <button class="btn btn-primary">Otros</button>
             </div>
           </div>
         </div>
-        <div>
-          <footer class="d-flex">
-            <div class="footer-container">
-              <div class="footer-section logo">
-                <img src="./imagenes/RefugioRocklogo2.png" alt="Tu Logo" />
-              </div>
-              <div class="footer-section social">
-                <h4>Síguenos</h4>
-                <a href="https://facebook.com"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                <a href="https://instagram.com"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="https://linkedin.com"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-              <div class="footer-section categories">
-                <h4>Categorías</h4>
-                <ul>
-                  <li><a href="#">Categoría 1</a></li>
-                  <li><a href="#">Categoría 2</a></li>
-                  <li><a href="#">Categoría 3</a></li>
-                  <li><a href="#">Categoría 4</a></li>
-                </ul>
-              </div>
-              <div class="footer-section help">
-                <h4>Ayuda</h4>
-                <ul>
-                  <li><a href="#">Centro de ayuda</a></li>
-                  <li><a href="#">Términos y condiciones</a></li>
-                  <li><a href="#">Privacidad</a></li>
-                  <li><a href="#">Contacto</a></li>
-                </ul>
-              </div>
-            </div>
-          </footer>
-        </div>
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://kit.fontawesome.com/a076d05399.js"
-          crossorigin="anonymous"
-        ></script>
       </main>
     </div>
+    <div>
+      <footer class="d-flex mt-4">
+        <div class="footer-container">
+          <div class="footer-section logo">
+            <img src="./imagenes/RefugioRocklogo2.png" alt="Tu Logo" />
+          </div>
+          <div class="footer-section social">
+            <h4>Síguenos</h4>
+            <a href="https://facebook.com"
+              >Facebook<i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com"
+              >Twitter<i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://instagram.com"
+              >Instagram<i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://linkedin.com"
+              >Linkedin<i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="footer-section categories">
+            <h4>Categorías</h4>
+            <ul>
+              <li><a href="#">Categoría 1</a></li>
+              <li><a href="#">Categoría 2</a></li>
+              <li><a href="#">Categoría 3</a></li>
+              <li><a href="#">Categoría 4</a></li>
+            </ul>
+          </div>
+          <div class="footer-section help">
+            <h4>Ayuda</h4>
+            <ul>
+              <li><a href="#">Centro de ayuda</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

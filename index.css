@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+main {
+  margin-top: 280px;
+}
+
 .contenedor-principal-local {
   width: 100%;
   height: 415px;
@@ -107,4 +118,15 @@ footer {
   height: 1px;
   background-color: #000000;
   margin: 10px 0;
+}
+
+.colorCard {
+  /* Cambia el color de fondo aquí */
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  margin: auto; /* Centra la card horizontalmente */
+}
+.colorCard .card-body {
+  padding: 15px; /* Ajusta el padding según tus necesidades */
+  color: black; /* Cambia el color del texto a blanco */
+  background-color: #ced4da;
 }
