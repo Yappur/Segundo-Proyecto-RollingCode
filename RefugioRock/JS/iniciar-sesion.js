@@ -40,9 +40,9 @@ const iniciarSesionUsuario = (evento) => {
 
     localStorage.setItem("usuarios", JSON.stringify(usuariosLocalStorage));
     if (usuarioExiste.role === "admin") {
-      location.href = "../Paginas/home-admin.html";
+      location.href = "../pages/home-admin.html";
     } else if (usuarioExiste.role === "usuario") {
-      location.href = "../Paginas/home-usuario.html";
+      location.href = "../pages/home-usuario.html";
     } else {
       alert("rol no existente");
     }
